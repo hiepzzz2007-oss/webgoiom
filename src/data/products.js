@@ -16,9 +16,9 @@ export const products = [
   },
   {
     id: "bien-xanh",
-    slug: "goi-om-bien-xanh",
-    name: "Gối ôm Biển Xanh",
-    subtitle: "Cotton satin · thoáng mát bốn mùa",
+    slug: "goi-om-nau-moc",
+    name: "Gối ôm Nâu Mộc",
+    subtitle: "Cotton satin · sắc nâu mộc ấm áp",
     price: 429000,
     oldPrice: null,
     size: "1m5",
@@ -27,7 +27,7 @@ export const products = [
     color: "#b49a80",
     label: "Mới",
     description:
-      "Sắc xanh dịu mắt cùng bề mặt cotton satin mịn nhẹ. Thiết kế dài 1m5 giúp bạn thư giãn thoải mái mỗi tối.",
+      "Sắc nâu mộc cùng bề mặt cotton satin mịn nhẹ. Thiết kế dài 1m5 giúp bạn thư giãn thoải mái mỗi tối.",
   },
   {
     id: "kem-sua",
@@ -47,7 +47,8 @@ export const products = [
   {
     id: "oai-huong",
     slug: "goi-om-oai-huong",
-    name: "Gối ôm Oải Hương",
+    name: "Gối ôm Nâu Trầm",
+    slug: "goi-om-nau-tram",
     subtitle: "Cotton hữu cơ · phiên bản thư giãn",
     price: 399000,
     oldPrice: null,
@@ -57,7 +58,7 @@ export const products = [
     color: "#9a8069",
     label: "",
     description:
-      "Sắc tím lavender nhẹ nhàng mang cảm giác thư thái. Ruột gối êm, nâng đỡ dễ chịu khi đọc sách hay nghỉ ngơi.",
+      "Sắc nâu trầm dịu mắt mang cảm giác thư thái. Ruột gối êm, nâng đỡ dễ chịu khi đọc sách hay nghỉ ngơi.",
   },
   {
     id: "ngu-em",
