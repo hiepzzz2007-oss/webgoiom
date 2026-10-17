@@ -12,11 +12,11 @@ export default function Header() {
       <div className="header-inner">
         <Link className="brand" href="/" aria-label="Ôm Nhà - Trang chủ"><span className="brand-mark">ôm</span><span>nhà</span></Link>
         <nav className="desktop-nav" aria-label="Điều hướng chính">
-          <Link href="/shop">Cửa hàng</Link><a href="/#story">Câu chuyện</a><a href="/#reviews">Khách hàng</a>
+          <Link href="/shop">Cửa hàng</Link><Link href="/#story">Câu chuyện</Link><Link href="/#reviews">Khách hàng</Link>
         </nav>
         <div className="header-actions">
           <Link className="header-shop-link" href="/shop">Khám phá bộ sưu tập</Link>
-          <button className="icon-button mobile-menu" aria-label="Mở cửa hàng" onClick={() => location.assign("/shop")}><Menu size={19} /></button>
+          <Link className="icon-button mobile-menu" aria-label="Mở cửa hàng" href="/shop"><Menu size={19} /></Link>
           <button className="icon-button cart-trigger" aria-label={`Mở giỏ hàng, ${count} sản phẩm`} onClick={openCart}>
             <ShoppingBag size={19} /><span>Giỏ hàng</span>{count > 0 && <b className="cart-count">{count}</b>}
           </button>
