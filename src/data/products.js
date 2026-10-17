@@ -11,7 +11,7 @@ export const products = [
     category: "Gối ôm",
     color: "#c9b49e",
     label: "Bán chạy",
-    image: "/images/goi1.jfif",
+    image: "/images/goi1.jpg",
     description:
       "Một chiếc ôm mềm vừa đủ cho những đêm dài. Vỏ cotton hữu cơ thoáng mát, ruột microfiber đàn hồi và có thể tháo rời để vệ sinh.",
   },
@@ -27,7 +27,7 @@ export const products = [
     category: "Gối ôm",
     color: "#b49a80",
     label: "Mới",
-    image: "/images/goi2.jfif",
+    image: "/images/goi2.jpg",
     description:
       "Sắc nâu mộc cùng bề mặt cotton satin mịn nhẹ. Thiết kế dài 1m5 giúp bạn thư giãn thoải mái mỗi tối.",
   },
@@ -43,7 +43,7 @@ export const products = [
     category: "Gối ôm",
     color: "#e5d8c8",
     label: "",
-    image: "/images/goi3.jfif",
+    image: "/images/goi3.jpg",
     description:
       "Tông kem ấm áp dễ phối với mọi không gian. Chất vải cotton chải kỹ mềm mại, phù hợp cho phòng ngủ tối giản.",
   },
@@ -60,7 +60,7 @@ export const products = [
     category: "Gối ôm",
     color: "#9a8069",
     label: "",
-    image: "/images/goi4.jfif",
+    image: "/images/goi4.jpg",
     description:
       "Sắc nâu trầm dịu mắt mang cảm giác thư thái. Ruột gối êm, nâng đỡ dễ chịu khi đọc sách hay nghỉ ngơi.",
   },
