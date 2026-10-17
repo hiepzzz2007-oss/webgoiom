@@ -87,3 +87,5 @@ body :where(.hero-copy h1,.shop-banner h1,.not-found h1,.order-success h1,.check
 body :where(.product-info h1,.section-heading h2,.story-copy h2,.home-cta h2,.product-after h2,.reviews-heading h2){font-family:var(--serif)}
 .product-info .add-to-cart,.checkout-page .place-order,.cart-drawer .checkout-button{font-size:16px;font-weight:600}
 .size-options button,.detail-swatch,.quantity-control button,.filter-controls select{font-weight:600}
+
+.hero-product-image{z-index:1;object-fit:contain;padding:5%;filter:drop-shadow(0 12px 20px rgba(84,77,72,.1))}
